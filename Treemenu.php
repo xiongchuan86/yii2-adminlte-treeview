@@ -32,7 +32,14 @@ class Treemenu extends BootstrapDropdown
             }
             $encodeLabel = isset($item['encode']) ? $item['encode'] : $this->encodeLabels;
             $label = $encodeLabel ? Html::encode($item['label']) : $item['label'];
-            $label = '<span>' . $label . '</span>';
+            $icon = ArrayHelper::getValue($item, 'icon', '');
+            if (isset($icon)) {
+                $icon = '<i class="' . $icon . '"></i>';
+                $label = $icon . '<span>' . $label . '</span>';
+            }else{
+                $label = '<span>' . $label . '</span>';    
+            }
+            
             if (array_key_exists('badget', $item) && array_key_exists('text', $item['badget'])) {
                 $text = $item['badget']['text'];
                 $float = array_key_exists('float', $item['badget']) ? $item['badget']['float'] : 'right';

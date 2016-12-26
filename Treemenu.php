@@ -1,6 +1,6 @@
 <?php
 
-namespace meysampg\treeview;
+namespace xiongchuan\treeview;
 
 use yii\bootstrap\Dropdown as BootstrapDropdown;
 use yii\helpers\Html;

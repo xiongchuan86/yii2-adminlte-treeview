@@ -1,9 +1,10 @@
-Yii2 Treeview
+Yii2 Adminlte Treeview
 =============
-A Bootstrap Treeview Generator for AdminLte Sidebar
+A Bootstrap Treeview Generator for AdminLte Sidebar,Based meysampg/yii2-treeview
 
 Description
 -----------
+对 meysampg/yii2-treeview treemenu进行了简单的增强，原作者merge的太慢，我fork了一个。
 
 It's just an extended version of `yii\bootstrap\Nav` for generating proper code for sidebar of [AdminLte](https://almsaeedstudio.com/themes/AdminLTE/index.html) with support of badgets.
 
@@ -15,13 +16,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require meysampg/yii2-treeview "*"
+composer require xiongchuan/yii2-adminlte-treeview "*"
 ```
 
 or add
 
 ```
-"meysampg/yii2-treeview": "*"
+"xiongchuan/yii2-adminlte-treeview": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -33,7 +34,7 @@ Usage
 Once the extension is installed, simply use it in your code by:
 
 ```php
-use meysampg\treeview\Treeview;
+use xiongchuan\treeview\Treeview;
 ```
 and use it on your code by 
 ```php

@@ -1,11 +1,11 @@
 <?php
 
-namespace meysampg\treeview;
+namespace xiongchuan\treeview;
 
 use yii\bootstrap\Nav as BootstrapNav;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
-use meysampg\treeview\Treemenu;
+use xiongchuan\treeview\Treemenu;
 
 class Treeview extends BootstrapNav
 {

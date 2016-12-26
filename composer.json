@@ -1,13 +1,13 @@
 {
-    "name": "meysampg/yii2-treeview",
+    "name": "xiongchuan/yii2-adminlte-treeview",
     "description": "A Bootstrap Treeview Generator for AdminLte Sidebar",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","adminlte","sidebar","treeview","generator"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Meysam P.G.",
-            "email": "p.g.meysam@gmail.com"
+            "name": "chuan xiong",
+            "email": "xiongchuan86@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "meysampg\\treeview\\": ""
+            "xiongchuan\\treeview\\": ""
         }
     }
 }
